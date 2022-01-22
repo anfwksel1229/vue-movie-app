@@ -1,10 +1,10 @@
-exports.hendler = async function (event, context) {
+exports.handler = async function (event, context) {
   return {
     statusCode: 200,
-    body: JSON.stringify({
-      name: 'yonghyun',
-      age:28,
-      email: 'hello@gmail.com'
+    body: JSON.stringify ({
+      name: 'yong',
+      age: 85,
+      email: 'test@gmail.com'
     })
   }
 }
